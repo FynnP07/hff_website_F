@@ -1,0 +1,114 @@
+/*
+ * nav.css
+ */
+
+
+/******************************************************************************/
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0px 5px 40px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 0.5em 10%;
+    z-index: 10;
+}
+
+nav * {
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+
+/******************************************************************************/
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
+/******************************************************************************/
+
+nav ul li {
+    padding: 0 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav ul li .active {
+    color: var(--selected);
+}
+
+
+/******************************************************************************/
+
+nav.ul li:hover a {
+    color: var(--link);
+}
+
+nav ul .mainli:hover a {
+    color: var(--link);
+}
+
+nav ul li p:hover a {
+    color: var(--link);
+}
+
+
+/******************************************************************************/
+
+@media (max-width: 50em) {
+    nav {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    nav ul li {
+        padding: 0 0.5em;
+    }
+}
+
+@media (max-width: 30em) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: right;
+    }
+}
+
+
+/******************************************************************************/
+
+nav .infdropdown {
+    display: block;
+    position: relative;
+    color: var(--selected);
+}
+
+.infcontent {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    width: fit-content;
+    color: black;
+    border-radius: 0em 0em 0.33em 0.3em;
+    box-shadow: 0px 5px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.infdropdown:hover .infcontent {
+    display: block;
+    transition: all 0.2s ease-in-out;
+    color: black;
+}
+
+.dropdown {
+    padding-top: 0.3em;
+}

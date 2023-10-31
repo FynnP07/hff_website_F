@@ -1,0 +1,232 @@
+/*
+ * style.css
+ */
+
+/******************************************************************************/
+
+:root {
+  animation-delay: 0;
+  color: inherit;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+  --link: rgb(32, 221, 64);
+  --dg: rgb(52, 109, 61);
+  --dark: rgb(27, 27, 27);
+  --selected: rgb(112, 112, 112);
+  --white: rgb(255, 255, 255);
+  --almost-white: rgb(230, 230, 230);
+  --gray: rgb(94, 94, 94);
+  --hff: rgb(168, 247, 164);
+}
+
+/******************************************************************************/
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.3em;
+  font-size: 1em;
+  color: inherit;
+  text-align: inherit;
+}
+
+em {
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+}
+
+hr {
+  color: black;
+  height: 0px;
+}
+
+strong {
+  font-weight: 700;
+  color: var(--link);
+  font-size: 1.3em;
+}
+
+body {
+  min-height: 100%;
+}
+
+ol {
+  list-style: decimal;
+  text-align: left;
+  padding: 1em;
+}
+
+ol li {
+  margin: 1em 0;
+}
+
+sup {
+  position: relative;
+  vertical-align: baseline;
+  top: -0.4em;
+  font-size: 0.7em;
+}
+
+small {
+  font-size: 0.7em;
+}
+
+video {
+  max-width: 60em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+::selection {
+  background-color: var(--hff);
+  color: black;
+}
+
+/******************************************************************************/
+
+.center {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.logo {
+  height: 3em;
+}
+
+.max-width-def {
+  max-width: 70em;
+}
+
+.erase-margin {
+  margin: 0;
+}
+
+.bigger {
+  font-size: 1.4em;
+}
+
+.even-bigger {
+  font-size: 2.5em;
+}
+
+.green {
+  color: var(--link);
+}
+
+.kursiv {
+  font-style: italic;
+}
+
+.bottom-margin {
+  margin-bottom: 1em;
+}
+
+li.standart {
+  margin-top: 2em;
+  font-size: 1.4em;
+  text-align: left;
+  margin-bottom: 2em;
+  margin-left: 1em;
+}
+
+.roman {
+  list-style: upper-roman;
+}
+
+.hockkant {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  position: relative;
+  max-width: 20em;
+}
+
+.quer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  max-width: 47em;
+}
+
+.unterschrift {
+  margin-bottom: 1em;
+}
+
+.formel {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.clean {
+  text-decoration: none;
+}
+/******************************************************************************/
+
+.description {
+  margin-bottom: 2em;
+  margin: 1em;
+  text-align: center;
+}
+
+.headline {
+  margin-bottom: 2em;
+  padding-top: 2em;
+  width: 73.8em;
+  text-align: center;
+}
+
+@media (max-width: 74.5em) {
+  .headline {
+    max-width: 95%;
+  }
+}
+@media (max-width: 60em) {
+  video {
+    width: 100%;
+  }
+  .quer {
+    width: 100%;
+  }
+  .hochkant {
+    width: 100%;
+  }
+}
+
+@media (max-width: 30em) {
+  .bigger {
+    font-size: 1em;
+  }
+  li.standart {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,36 @@
+/*
+ * cards.css
+ */
+
+
+/******************************************************************************/
+
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: var(--gray);
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5em;
+    min-height: 10em;
+    padding: 1em 0;
+}
+
+footer section {
+    margin: 1em 2em;
+    max-width: 20em;
+    text-align: center;
+}
+
+footer section * {
+    border-radius: 0.25em;
+}
+
+
+/******************************************************************************/
