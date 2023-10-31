@@ -64,6 +64,7 @@
 
 .card:hover .bottom p {
   color: var(--link);
+  font-size: 2em;
 }
 
 .techcard:hover {
