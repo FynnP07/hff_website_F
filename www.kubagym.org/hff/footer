@@ -1,1 +1,27 @@
-test
+    <footer>
+        <section>
+            <p>
+                <a href="https://www.kubagym.org/"><img src="img/branding/Logo%20KUBAGYMneu.jpg" style="width: 15em" /></a>
+                <a href="https://www.mint-ec.de"><img src="img/branding/MINT-EC-Logo.jpg" style="width: 15em" /></a>
+            </p>
+        </section>
+
+        <section>
+            <p>
+                Hydrogen For Future ist eine Kampagne des Kurfürst-Balduin-Gymnasiums
+                Münstermaifeld
+                <br /><br />
+                Projektleitung: Wolfgang Schäfer
+                <br />
+                <a href="mailto:wschaefer@kubagym.org">wschaefer@kubagym.org</a>
+            </p>
+        </section>
+
+        <section>
+            <p>
+                Webseite entwickelt von Daniel Wolbach und Mathias Lief<br />
+                © Copyright 2020 <br />
+                <br />
+            </p>
+        </section>
+    </footer>
